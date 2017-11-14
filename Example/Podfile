@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHOMontage_Example' do
+  pod 'CHOMontage', :path => '../'
+
+  target 'CHOMontage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
