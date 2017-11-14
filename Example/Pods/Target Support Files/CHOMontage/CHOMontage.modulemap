@@ -1,0 +1,6 @@
+framework module CHOMontage {
+  umbrella header "CHOMontage-umbrella.h"
+
+  export *
+  module * { export * }
+}

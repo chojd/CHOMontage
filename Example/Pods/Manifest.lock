@@ -1,0 +1,42 @@
+PODS:
+  - CHOMontage (0.1.0):
+    - CHOMontage/Annotation (= 0.1.0)
+    - CHOMontage/Base (= 0.1.0)
+    - CHOMontage/Defines (= 0.1.0)
+    - CHOMontage/Director (= 0.1.0)
+    - CHOMontage/Interfaces (= 0.1.0)
+  - CHOMontage/Annotation (0.1.0):
+    - CHOMontage/Director
+  - CHOMontage/Base (0.1.0):
+    - CHOMontage/Base/Cell (= 0.1.0)
+    - CHOMontage/Base/Controller (= 0.1.0)
+    - CHOMontage/Base/Item (= 0.1.0)
+    - CHOMontage/Base/Layout (= 0.1.0)
+    - CHOMontage/Director
+  - CHOMontage/Base/Cell (0.1.0):
+    - CHOMontage/Director
+  - CHOMontage/Base/Controller (0.1.0):
+    - CHOMontage/Director
+  - CHOMontage/Base/Item (0.1.0):
+    - CHOMontage/Director
+  - CHOMontage/Base/Layout (0.1.0):
+    - CHOMontage/Director
+  - CHOMontage/Defines (0.1.0)
+  - CHOMontage/Director (0.1.0):
+    - CHOMontage/Interfaces
+  - CHOMontage/Interfaces (0.1.0):
+    - CHOMontage/Defines
+
+DEPENDENCIES:
+  - CHOMontage (from `../`)
+
+EXTERNAL SOURCES:
+  CHOMontage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CHOMontage: b78fa810cd4e29b1d38961bd040ed6d8637b3ba5
+
+PODFILE CHECKSUM: 404d5ef0d1a98d75da505ccff08517a3c9c56873
+
+COCOAPODS: 1.4.0.beta.2

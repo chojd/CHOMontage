@@ -23,6 +23,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B05B66F31FBB21830044A6C2 /* CHOGoodsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B66ED1FBB21830044A6C2 /* CHOGoodsItem.m */; };
+		B05B66F41FBB21830044A6C2 /* CHOGoodsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B66EF1FBB21830044A6C2 /* CHOGoodsLayout.m */; };
+		B05B66F51FBB21830044A6C2 /* CHOGoodsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B66F11FBB21830044A6C2 /* CHOGoodsTableCell.m */; };
+		B05B66F81FBB21A10044A6C2 /* CHOOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B66F71FBB21A10044A6C2 /* CHOOrderItem.m */; };
+		B05B66FB1FBB21B10044A6C2 /* CHOOrderLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B66FA1FBB21B10044A6C2 /* CHOOrderLayout.m */; };
+		B05B66FE1FBB21C50044A6C2 /* CHOOrderTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B05B66FD1FBB21C50044A6C2 /* CHOOrderTableCell.m */; };
 		FACB82A8FABE1C88D46B6944 /* Pods_CHOMontage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482A68FE661A53348B11D920 /* Pods_CHOMontage_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,13 +66,26 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6314EAC5B7DDDEAF7BECFE49 /* Pods-CHOMontage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHOMontage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHOMontage_Example/Pods-CHOMontage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		68256E91C7E5B716F489A75A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		68256E91C7E5B716F489A75A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6CE02E070BFDC999689A81A4 /* Pods_CHOMontage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHOMontage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95A58833248296917AF69C12 /* Pods-CHOMontage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHOMontage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHOMontage_Tests/Pods-CHOMontage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A947B2B5BBF48C6C562EE5F4 /* CHOMontage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHOMontage.podspec; path = ../CHOMontage.podspec; sourceTree = "<group>"; };
-		B38FD49DA3A8DE705CEA41A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A947B2B5BBF48C6C562EE5F4 /* CHOMontage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = CHOMontage.podspec; path = ../CHOMontage.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		B05B66E01FBAEAF40044A6C2 /* CHOMontageIDDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHOMontageIDDefines.h; sourceTree = "<group>"; };
+		B05B66EC1FBB21830044A6C2 /* CHOGoodsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOGoodsItem.h; sourceTree = "<group>"; };
+		B05B66ED1FBB21830044A6C2 /* CHOGoodsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOGoodsItem.m; sourceTree = "<group>"; };
+		B05B66EE1FBB21830044A6C2 /* CHOGoodsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOGoodsLayout.h; sourceTree = "<group>"; };
+		B05B66EF1FBB21830044A6C2 /* CHOGoodsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOGoodsLayout.m; sourceTree = "<group>"; };
+		B05B66F01FBB21830044A6C2 /* CHOGoodsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHOGoodsTableCell.h; sourceTree = "<group>"; };
+		B05B66F11FBB21830044A6C2 /* CHOGoodsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHOGoodsTableCell.m; sourceTree = "<group>"; };
+		B05B66F61FBB21A10044A6C2 /* CHOOrderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHOOrderItem.h; sourceTree = "<group>"; };
+		B05B66F71FBB21A10044A6C2 /* CHOOrderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHOOrderItem.m; sourceTree = "<group>"; };
+		B05B66F91FBB21B10044A6C2 /* CHOOrderLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHOOrderLayout.h; sourceTree = "<group>"; };
+		B05B66FA1FBB21B10044A6C2 /* CHOOrderLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHOOrderLayout.m; sourceTree = "<group>"; };
+		B05B66FC1FBB21C50044A6C2 /* CHOOrderTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHOOrderTableCell.h; sourceTree = "<group>"; };
+		B05B66FD1FBB21C50044A6C2 /* CHOOrderTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHOOrderTableCell.m; sourceTree = "<group>"; };
+		B38FD49DA3A8DE705CEA41A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,11 +162,14 @@
 		6003F593195388D20070C39A /* Example for CHOMontage */ = {
 			isa = PBXGroup;
 			children = (
+				B05B66EB1FBB21830044A6C2 /* Goods */,
+				B05B66F21FBB21830044A6C2 /* Order */,
 				6003F59C195388D20070C39A /* CHOAppDelegate.h */,
 				6003F59D195388D20070C39A /* CHOAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CHOViewController.h */,
 				6003F5A6195388D20070C39A /* CHOViewController.m */,
+				B05B66E01FBAEAF40044A6C2 /* CHOMontageIDDefines.h */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +216,32 @@
 				68256E91C7E5B716F489A75A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B05B66EB1FBB21830044A6C2 /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				B05B66EC1FBB21830044A6C2 /* CHOGoodsItem.h */,
+				B05B66ED1FBB21830044A6C2 /* CHOGoodsItem.m */,
+				B05B66EE1FBB21830044A6C2 /* CHOGoodsLayout.h */,
+				B05B66EF1FBB21830044A6C2 /* CHOGoodsLayout.m */,
+				B05B66F01FBB21830044A6C2 /* CHOGoodsTableCell.h */,
+				B05B66F11FBB21830044A6C2 /* CHOGoodsTableCell.m */,
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		B05B66F21FBB21830044A6C2 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				B05B66F61FBB21A10044A6C2 /* CHOOrderItem.h */,
+				B05B66F71FBB21A10044A6C2 /* CHOOrderItem.m */,
+				B05B66F91FBB21B10044A6C2 /* CHOOrderLayout.h */,
+				B05B66FA1FBB21B10044A6C2 /* CHOOrderLayout.m */,
+				B05B66FC1FBB21C50044A6C2 /* CHOOrderTableCell.h */,
+				B05B66FD1FBB21C50044A6C2 /* CHOOrderTableCell.m */,
+			);
+			path = Order;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,8 +452,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CHOAppDelegate.m in Sources */,
+				B05B66F81FBB21A10044A6C2 /* CHOOrderItem.m in Sources */,
 				6003F5A7195388D20070C39A /* CHOViewController.m in Sources */,
+				B05B66FE1FBB21C50044A6C2 /* CHOOrderTableCell.m in Sources */,
+				B05B66F41FBB21830044A6C2 /* CHOGoodsLayout.m in Sources */,
+				B05B66F31FBB21830044A6C2 /* CHOGoodsItem.m in Sources */,
+				B05B66F51FBB21830044A6C2 /* CHOGoodsTableCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B05B66FB1FBB21B10044A6C2 /* CHOOrderLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

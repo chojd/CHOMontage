@@ -6,8 +6,8 @@
 //  Copyright (c) 2017 chojd. All rights reserved.
 //
 
-@import UIKit;
+#import <CHOMontage/CHOMontageTableViewController.h>
 
-@interface CHOViewController : UIViewController
+@interface CHOViewController : CHOMontageTableViewController
 
 @end

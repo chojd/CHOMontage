@@ -1,0 +1,6 @@
+framework module Pods_CHOMontage_Tests {
+  umbrella header "Pods-CHOMontage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

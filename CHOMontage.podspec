@@ -9,34 +9,61 @@
 Pod::Spec.new do |s|
   s.name             = 'CHOMontage'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CHOMontage.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Montage'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    I am a Director;
                        DESC
 
   s.homepage         = 'https://github.com/chojd/CHOMontage'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chojd' => 'jingda.cao@gmail.com' }
+  s.author           = { 'Gene' => 'jingda.cao@gmail.com' }
   s.source           = { :git => 'https://github.com/chojd/CHOMontage.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/JingdaCao'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CHOMontage/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CHOMontage' => ['CHOMontage/Assets/*.png']
-  # }
+  s.source_files = 'Sources/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Base' do |ss|
+    ss.source_files = 'Sources/Base/*'
+
+    ss.subspec 'Cell' do |sss|
+      sss.source_files = 'Sources/Base/Cell/*'
+    end
+
+    ss.subspec 'Controller' do |sss|
+      sss.source_files = 'Sources/Base/Controller/*'
+    end
+
+    ss.subspec 'Item' do |sss|
+      sss.source_files = 'Sources/Base/Item/*'
+    end
+
+    ss.subspec 'Layout' do |sss|
+      sss.source_files = 'Sources/Base/Layout/*'
+    end
+
+    ss.dependency 'CHOMontage/Director'
+  end
+
+  s.subspec 'Annotation' do |ss|
+    ss.source_files = 'Sources/Annotation/*'
+    ss.dependency 'CHOMontage/Director'
+  end
+
+  s.subspec 'Director' do |ss|
+    ss.source_files = 'Sources/Director/*'
+    ss.dependency 'CHOMontage/Interfaces'
+  end
+
+  s.subspec 'Defines' do |ss|
+    ss.source_files = 'Sources/Defines/*'
+  end
+
+  s.subspec 'Interfaces' do |ss|
+    ss.source_files = 'Sources/Interfaces/*'
+    ss.dependency 'CHOMontage/Defines'
+  end
+
 end

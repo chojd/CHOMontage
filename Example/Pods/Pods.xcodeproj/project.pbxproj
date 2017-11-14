@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C5083A91A69BCC1C3E49AE28E1EAB5 /* Pods-CHOMontage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C9AE4F010711BDFCEEFD8DF8123CC7 /* Pods-CHOMontage_Tests-dummy.m */; };
+		03405FCB62E001A851293CAB88BA588D /* CHOMontageAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C1246B0EA179BFD76571FB4A26743A1B /* CHOMontageAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE6322A50C812472EF8ACB1659EFF34 /* CHOMontageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A21C3B576D08927720D3187D9FE2CB13 /* CHOMontageLayout.m */; };
+		1EDC92EDD485DD09FE04A314AC734A27 /* ICHOMontageLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F362DC2B825796071F170521CCF13C /* ICHOMontageLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242FFEBFDD094064D6E8FA98E8939515 /* CHOCollectionDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1625D7A94D18645B6A07CC46C60D9B74 /* CHOCollectionDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A62A09B6FAC6751F31C3A7399FC6BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2FFBD418FF60B733862B1C13EB2028A3 /* CHOTableDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A690D7C2F44EADDDECDB8F372E83B /* CHOTableDirector.m */; };
+		37B46034A240CA7CF87286A823DD12ED /* CHOMontageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 49DE21D1FC2AACE9804A92BA39CC75BB /* CHOMontageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BF42D7EA5D7868304D5F030AEB685F0 /* CHOMontageCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C05CE8F99FE3D4FEAFDD0789B4BBF79 /* CHOMontageCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		608C7D4CB41D24B18BC95CD3E10CB0C8 /* CHOMontage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 648C8C50952A7C52FD027D753593CBBA /* CHOMontage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6274485D3739698AD292E0BB7393DDE5 /* ICHOMontageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CA76772462B15F68B50B61ED62D7FC83 /* ICHOMontageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632E435AB0889A645D6740E6A3B6274F /* CHOCollectionDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6AD7D6CC8DC39C7497BDA3FAF78DF7 /* CHOCollectionDirector.m */; };
+		6DE49B287D938B5EC392D5C851AB9BB4 /* CHOMontageCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C00605EC04015DA7959ADCB6CE5AE141 /* CHOMontageCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B371603BCCD8F0CD6EE682FD4D48267 /* CHOMontageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7EFBA76AD5459B7E8C0EF7BD9667A1 /* CHOMontageCollectionViewController.m */; };
+		854A1758972CCAC5B1A41D9A2F8DB80E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		883D62AA62F879B63F7D4DCA52B91B50 /* CHOTableDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 459F808D3D2C3B3D5FDA26314FE96B11 /* CHOTableDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F972B61B63CE65D1F621D5D9997A69B /* CHOMontageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A6F2737FD220F110263DA538F8781E /* CHOMontageItem.m */; };
+		A128DC9CD95F9170DB8364F17047F2D4 /* CHOMontageLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF922CE1913A5773A7736AC1BCB0D51 /* CHOMontageLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A16A4579702C48AB124B12EEF1B139A3 /* CHOMontageTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BFCD11E6E504692348C6A13CA50E8C /* CHOMontageTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A24D3ED1230D6C62C838355F8DBF3B45 /* CHOBaseDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB21D29DFC19021D6675F9C112DF91E /* CHOBaseDirector.m */; };
+		A5FF0577DD528032E33065B2ED810CEA /* Pods-CHOMontage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF457B8B8CBE5E2CFE269C2A4EE3965 /* Pods-CHOMontage_Example-dummy.m */; };
+		ACE31BF8EFADDB601863D0859150F7E8 /* Pods-CHOMontage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB7DEC1702DC27106D7B1AAE2A85CC3 /* Pods-CHOMontage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B40004AFA34AD669BE16D52B3E1F1DAD /* CHOMontageAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 494B2608DAFFEEFA55F74CDFD1BC5C54 /* CHOMontageAnnotation.m */; };
+		BE7117FADDE760998C5E659DA85980B0 /* CHOMontage.h in Headers */ = {isa = PBXBuildFile; fileRef = 89482DDC0CCDE430834CCCC7C138C0EB /* CHOMontage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C226EA82EA0240FF7807EB310C43F25B /* Pods-CHOMontage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D37EE96DC45C139F98009D28CDFB4D /* Pods-CHOMontage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C748CC3A854FF8180D1658DB4DCACFD8 /* CHOMontageDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A3028435C1F47150CA2F353E3657EF /* CHOMontageDefines.m */; };
+		CE6F0DEC0381185CD4CDC38CF8062FA8 /* CHOMontageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDD9130814B4DF4850353B1B1A3DEB2 /* CHOMontageCollectionCell.m */; };
+		D718BB1983D779CCBCE6C5A72644A921 /* CHODirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 685CFD81A10B57D745B065634A8F1E41 /* CHODirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC77CB6242C232C9841F7E45B1706A50 /* CHOMontage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6410228B85840D2D1626CEBAE5902115 /* CHOMontage-dummy.m */; };
+		E5584A94B8F25FAECA9443F2773E5507 /* CHOMontageDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0AB0B95D6706E9434545F99899733D /* CHOMontageDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B33F07ACA43D7060EBB8CF26F334D3 /* CHOMontageTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B5E00FB9852417E50938C30C5806A8 /* CHOMontageTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB41ACE05866216D518376D1D91FF346 /* CHOMontageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A286F8F17664B4F64AAF805C6BCC7DCE /* CHOMontageTableViewController.m */; };
+		ECE423904C42D9ABF12A81E2503921EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F3F14F3D09498876CF0E70050D988D85 /* CHOBaseDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 119A7726440B80D0C757D6D55C97534A /* CHOBaseDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61682AFB98A3F991D5C5FACB4EB6FBF /* ICHOMontageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5955DD2833D73F246ABAFD7BECF499A /* ICHOMontageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68AB4E404BEFFAB66196D55A13517D9 /* CHOMontageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E37155495901FFB43AC9D5BAC547A8 /* CHOMontageTableCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D97E3696F168FF7EB2E4370838C4137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17FECBD3CDAB192834F82E03DB8A53C7;
+			remoteInfo = CHOMontage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0657D8C47ED25F15BEF7E08777D0A0CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7EFBA76AD5459B7E8C0EF7BD9667A1 /* CHOMontageCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageCollectionViewController.m; path = Sources/Base/Controller/CHOMontageCollectionViewController.m; sourceTree = "<group>"; };
+		119A7726440B80D0C757D6D55C97534A /* CHOBaseDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOBaseDirector.h; path = Sources/Director/CHOBaseDirector.h; sourceTree = "<group>"; };
+		1625D7A94D18645B6A07CC46C60D9B74 /* CHOCollectionDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOCollectionDirector.h; path = Sources/Director/CHOCollectionDirector.h; sourceTree = "<group>"; };
+		21A6F2737FD220F110263DA538F8781E /* CHOMontageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageItem.m; path = Sources/Base/Item/CHOMontageItem.m; sourceTree = "<group>"; };
+		25BFCD11E6E504692348C6A13CA50E8C /* CHOMontageTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageTableCell.h; path = Sources/Base/Cell/CHOMontageTableCell.h; sourceTree = "<group>"; };
+		29AF87B9C7E74120A385879CF720D58C /* Pods-CHOMontage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOMontage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C6A690D7C2F44EADDDECDB8F372E83B /* CHOTableDirector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOTableDirector.m; path = Sources/Director/CHOTableDirector.m; sourceTree = "<group>"; };
+		2EB7DEC1702DC27106D7B1AAE2A85CC3 /* Pods-CHOMontage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHOMontage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		352E114F93E23379BA356C8C3B7D8587 /* Pods_CHOMontage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHOMontage_Tests.framework; path = "Pods-CHOMontage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BCB4F9444D50A3B9521917F932C51D /* Pods-CHOMontage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOMontage_Tests-resources.sh"; sourceTree = "<group>"; };
+		3B35704F050119A8E23E4F6B16D8C328 /* Pods-CHOMontage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOMontage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		459F808D3D2C3B3D5FDA26314FE96B11 /* CHOTableDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOTableDirector.h; path = Sources/Director/CHOTableDirector.h; sourceTree = "<group>"; };
+		47E37155495901FFB43AC9D5BAC547A8 /* CHOMontageTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageTableCell.m; path = Sources/Base/Cell/CHOMontageTableCell.m; sourceTree = "<group>"; };
+		494B2608DAFFEEFA55F74CDFD1BC5C54 /* CHOMontageAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageAnnotation.m; path = Sources/Annotation/CHOMontageAnnotation.m; sourceTree = "<group>"; };
+		49DE21D1FC2AACE9804A92BA39CC75BB /* CHOMontageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageItem.h; path = Sources/Base/Item/CHOMontageItem.h; sourceTree = "<group>"; };
+		4FF922CE1913A5773A7736AC1BCB0D51 /* CHOMontageLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageLayout.h; path = Sources/Base/Layout/CHOMontageLayout.h; sourceTree = "<group>"; };
+		59478A98238ECB49543601E2B9F560E7 /* Pods-CHOMontage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CHOMontage_Tests.modulemap"; sourceTree = "<group>"; };
+		5DDD9130814B4DF4850353B1B1A3DEB2 /* CHOMontageCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageCollectionCell.m; path = Sources/Base/Cell/CHOMontageCollectionCell.m; sourceTree = "<group>"; };
+		6410228B85840D2D1626CEBAE5902115 /* CHOMontage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHOMontage-dummy.m"; sourceTree = "<group>"; };
+		648C8C50952A7C52FD027D753593CBBA /* CHOMontage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHOMontage-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		685CFD81A10B57D745B065634A8F1E41 /* CHODirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHODirector.h; path = Sources/Director/CHODirector.h; sourceTree = "<group>"; };
+		6C05CE8F99FE3D4FEAFDD0789B4BBF79 /* CHOMontageCollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageCollectionCell.h; path = Sources/Base/Cell/CHOMontageCollectionCell.h; sourceTree = "<group>"; };
+		712BBB925B4A63250275F413F2D582D0 /* Pods-CHOMontage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOMontage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AB21D29DFC19021D6675F9C112DF91E /* CHOBaseDirector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOBaseDirector.m; path = Sources/Director/CHOBaseDirector.m; sourceTree = "<group>"; };
+		7D0AB0B95D6706E9434545F99899733D /* CHOMontageDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageDefines.h; path = Sources/Defines/CHOMontageDefines.h; sourceTree = "<group>"; };
+		7D6F5166A2659A2D57BA6291F9CD1B3C /* Pods-CHOMontage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOMontage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7E315B1479D2979171E18AE22557D65A /* Pods-CHOMontage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOMontage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EF1CC0DBCD7F26DFF4AF4E81AF8D7E7 /* CHOMontage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHOMontage-prefix.pch"; sourceTree = "<group>"; };
+		8112C7842317E38004230DE0BC39523C /* CHOMontage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHOMontage.framework; path = CHOMontage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BEA9844D08273DDCC2DBF4DEC01CBF /* Pods-CHOMontage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOMontage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89482DDC0CCDE430834CCCC7C138C0EB /* CHOMontage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontage.h; path = Sources/CHOMontage.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A3028435C1F47150CA2F353E3657EF /* CHOMontageDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageDefines.m; path = Sources/Defines/CHOMontageDefines.m; sourceTree = "<group>"; };
+		95BD4F8DE2021DACC50D61E14E0B1F5B /* Pods-CHOMontage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOMontage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9DE5226DA0665575FD08B119AE012FE1 /* CHOMontage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CHOMontage.modulemap; sourceTree = "<group>"; };
+		A21C3B576D08927720D3187D9FE2CB13 /* CHOMontageLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageLayout.m; path = Sources/Base/Layout/CHOMontageLayout.m; sourceTree = "<group>"; };
+		A286F8F17664B4F64AAF805C6BCC7DCE /* CHOMontageTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOMontageTableViewController.m; path = Sources/Base/Controller/CHOMontageTableViewController.m; sourceTree = "<group>"; };
+		A30B7A6897DF87921399F40296BEB010 /* CHOMontage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHOMontage.xcconfig; sourceTree = "<group>"; };
+		B3BB8177A2802BA50151836582426209 /* Pods-CHOMontage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOMontage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3F362DC2B825796071F170521CCF13C /* ICHOMontageLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICHOMontageLayout.h; path = Sources/Interfaces/ICHOMontageLayout.h; sourceTree = "<group>"; };
+		B49CEFAFE2BB1E17515B5C1DE0792B9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5955DD2833D73F246ABAFD7BECF499A /* ICHOMontageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICHOMontageItem.h; path = Sources/Interfaces/ICHOMontageItem.h; sourceTree = "<group>"; };
+		B9D9D1FA777D17C661FA9729BCD74D77 /* Pods_CHOMontage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHOMontage_Example.framework; path = "Pods-CHOMontage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00605EC04015DA7959ADCB6CE5AE141 /* CHOMontageCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageCollectionViewController.h; path = Sources/Base/Controller/CHOMontageCollectionViewController.h; sourceTree = "<group>"; };
+		C1246B0EA179BFD76571FB4A26743A1B /* CHOMontageAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageAnnotation.h; path = Sources/Annotation/CHOMontageAnnotation.h; sourceTree = "<group>"; };
+		CA76772462B15F68B50B61ED62D7FC83 /* ICHOMontageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICHOMontageCell.h; path = Sources/Interfaces/ICHOMontageCell.h; sourceTree = "<group>"; };
+		CDCA0BD6E04DB2E0214D3F7B8E7C099F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE31843D45160DD79C2A407AAA9A541B /* Pods-CHOMontage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CHOMontage_Example.modulemap"; sourceTree = "<group>"; };
+		CF18C372A42ABFF7F6D7F8CD364FFC8C /* Pods-CHOMontage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOMontage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8B5E00FB9852417E50938C30C5806A8 /* CHOMontageTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOMontageTableViewController.h; path = Sources/Base/Controller/CHOMontageTableViewController.h; sourceTree = "<group>"; };
+		DD6AD7D6CC8DC39C7497BDA3FAF78DF7 /* CHOCollectionDirector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOCollectionDirector.m; path = Sources/Director/CHOCollectionDirector.m; sourceTree = "<group>"; };
+		DEA5662C4DC0F7ABA25DAAFB14F3543F /* Pods-CHOMontage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOMontage_Example-resources.sh"; sourceTree = "<group>"; };
+		E8C9AE4F010711BDFCEEFD8DF8123CC7 /* Pods-CHOMontage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOMontage_Tests-dummy.m"; sourceTree = "<group>"; };
+		E90E8844F61A571FC5AB280B8B226797 /* Pods-CHOMontage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOMontage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFF457B8B8CBE5E2CFE269C2A4EE3965 /* Pods-CHOMontage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOMontage_Example-dummy.m"; sourceTree = "<group>"; };
+		F1D37EE96DC45C139F98009D28CDFB4D /* Pods-CHOMontage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHOMontage_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577F9687E82F6E1FC414EA2D369F32DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE423904C42D9ABF12A81E2503921EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C739210D8B63D5E361AEEAC3E45F573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A62A09B6FAC6751F31C3A7399FC6BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BBBACCABC1845BCA86E0D76877F787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854A1758972CCAC5B1A41D9A2F8DB80E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		099CE00898F001E9C476C092E8EE39E0 /* Pods-CHOMontage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B49CEFAFE2BB1E17515B5C1DE0792B9F /* Info.plist */,
+				CE31843D45160DD79C2A407AAA9A541B /* Pods-CHOMontage_Example.modulemap */,
+				712BBB925B4A63250275F413F2D582D0 /* Pods-CHOMontage_Example-acknowledgements.markdown */,
+				E90E8844F61A571FC5AB280B8B226797 /* Pods-CHOMontage_Example-acknowledgements.plist */,
+				EFF457B8B8CBE5E2CFE269C2A4EE3965 /* Pods-CHOMontage_Example-dummy.m */,
+				7D6F5166A2659A2D57BA6291F9CD1B3C /* Pods-CHOMontage_Example-frameworks.sh */,
+				DEA5662C4DC0F7ABA25DAAFB14F3543F /* Pods-CHOMontage_Example-resources.sh */,
+				F1D37EE96DC45C139F98009D28CDFB4D /* Pods-CHOMontage_Example-umbrella.h */,
+				3B35704F050119A8E23E4F6B16D8C328 /* Pods-CHOMontage_Example.debug.xcconfig */,
+				82BEA9844D08273DDCC2DBF4DEC01CBF /* Pods-CHOMontage_Example.release.xcconfig */,
+			);
+			name = "Pods-CHOMontage_Example";
+			path = "Target Support Files/Pods-CHOMontage_Example";
+			sourceTree = "<group>";
+		};
+		0C62B891E8BB3F7324C75F065660E9EC /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				7D0AB0B95D6706E9434545F99899733D /* CHOMontageDefines.h */,
+				94A3028435C1F47150CA2F353E3657EF /* CHOMontageDefines.m */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		174345389FAB9859FAD53E7F4679B63A /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				CA76772462B15F68B50B61ED62D7FC83 /* ICHOMontageCell.h */,
+				B5955DD2833D73F246ABAFD7BECF499A /* ICHOMontageItem.h */,
+				B3F362DC2B825796071F170521CCF13C /* ICHOMontageLayout.h */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		25B45EEB0BFC2BB0FBCA408121C21B8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE5226DA0665575FD08B119AE012FE1 /* CHOMontage.modulemap */,
+				A30B7A6897DF87921399F40296BEB010 /* CHOMontage.xcconfig */,
+				6410228B85840D2D1626CEBAE5902115 /* CHOMontage-dummy.m */,
+				7EF1CC0DBCD7F26DFF4AF4E81AF8D7E7 /* CHOMontage-prefix.pch */,
+				648C8C50952A7C52FD027D753593CBBA /* CHOMontage-umbrella.h */,
+				CDCA0BD6E04DB2E0214D3F7B8E7C099F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHOMontage";
+			sourceTree = "<group>";
+		};
+		4BB8C8B13B574D577EF1425906575232 /* Pods-CHOMontage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0657D8C47ED25F15BEF7E08777D0A0CC /* Info.plist */,
+				59478A98238ECB49543601E2B9F560E7 /* Pods-CHOMontage_Tests.modulemap */,
+				CF18C372A42ABFF7F6D7F8CD364FFC8C /* Pods-CHOMontage_Tests-acknowledgements.markdown */,
+				7E315B1479D2979171E18AE22557D65A /* Pods-CHOMontage_Tests-acknowledgements.plist */,
+				E8C9AE4F010711BDFCEEFD8DF8123CC7 /* Pods-CHOMontage_Tests-dummy.m */,
+				95BD4F8DE2021DACC50D61E14E0B1F5B /* Pods-CHOMontage_Tests-frameworks.sh */,
+				39BCB4F9444D50A3B9521917F932C51D /* Pods-CHOMontage_Tests-resources.sh */,
+				2EB7DEC1702DC27106D7B1AAE2A85CC3 /* Pods-CHOMontage_Tests-umbrella.h */,
+				B3BB8177A2802BA50151836582426209 /* Pods-CHOMontage_Tests.debug.xcconfig */,
+				29AF87B9C7E74120A385879CF720D58C /* Pods-CHOMontage_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHOMontage_Tests";
+			path = "Target Support Files/Pods-CHOMontage_Tests";
+			sourceTree = "<group>";
+		};
+		4C56841C20D325CCE50E92F57008253E /* CHOMontage */ = {
+			isa = PBXGroup;
+			children = (
+				89482DDC0CCDE430834CCCC7C138C0EB /* CHOMontage.h */,
+				D219F3416DD3B3A646C1402DD461F296 /* Annotation */,
+				6CDDDDA9202B12A7167472516B64DC92 /* Base */,
+				0C62B891E8BB3F7324C75F065660E9EC /* Defines */,
+				9EFF57CD708270DC880490513B969776 /* Director */,
+				174345389FAB9859FAD53E7F4679B63A /* Interfaces */,
+				25B45EEB0BFC2BB0FBCA408121C21B8D /* Support Files */,
+			);
+			name = CHOMontage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		60F72EA7617CDFA4847E2207773E1C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8112C7842317E38004230DE0BC39523C /* CHOMontage.framework */,
+				B9D9D1FA777D17C661FA9729BCD74D77 /* Pods_CHOMontage_Example.framework */,
+				352E114F93E23379BA356C8C3B7D8587 /* Pods_CHOMontage_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C207D33D51CFB3D1607D2AC2714F4D7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6C05CE8F99FE3D4FEAFDD0789B4BBF79 /* CHOMontageCollectionCell.h */,
+				5DDD9130814B4DF4850353B1B1A3DEB2 /* CHOMontageCollectionCell.m */,
+				25BFCD11E6E504692348C6A13CA50E8C /* CHOMontageTableCell.h */,
+				47E37155495901FFB43AC9D5BAC547A8 /* CHOMontageTableCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		6CDDDDA9202B12A7167472516B64DC92 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6C207D33D51CFB3D1607D2AC2714F4D7 /* Cell */,
+				B65C8A23C0BBB9977129367848E9111A /* Controller */,
+				DF23F4D070C440661318A53404714DBA /* Item */,
+				B2232035964DE0E41DAC17517F11493F /* Layout */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8C1A311AEF37DABEF1B00BBD57BD92CC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				60F72EA7617CDFA4847E2207773E1C5A /* Products */,
+				CC877BF1A99CA1FB7DEE788F94017AA0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1A311AEF37DABEF1B00BBD57BD92CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C56841C20D325CCE50E92F57008253E /* CHOMontage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9EFF57CD708270DC880490513B969776 /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				119A7726440B80D0C757D6D55C97534A /* CHOBaseDirector.h */,
+				7AB21D29DFC19021D6675F9C112DF91E /* CHOBaseDirector.m */,
+				1625D7A94D18645B6A07CC46C60D9B74 /* CHOCollectionDirector.h */,
+				DD6AD7D6CC8DC39C7497BDA3FAF78DF7 /* CHOCollectionDirector.m */,
+				685CFD81A10B57D745B065634A8F1E41 /* CHODirector.h */,
+				459F808D3D2C3B3D5FDA26314FE96B11 /* CHOTableDirector.h */,
+				2C6A690D7C2F44EADDDECDB8F372E83B /* CHOTableDirector.m */,
+			);
+			name = Director;
+			sourceTree = "<group>";
+		};
+		B2232035964DE0E41DAC17517F11493F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4FF922CE1913A5773A7736AC1BCB0D51 /* CHOMontageLayout.h */,
+				A21C3B576D08927720D3187D9FE2CB13 /* CHOMontageLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		B65C8A23C0BBB9977129367848E9111A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C00605EC04015DA7959ADCB6CE5AE141 /* CHOMontageCollectionViewController.h */,
+				0B7EFBA76AD5459B7E8C0EF7BD9667A1 /* CHOMontageCollectionViewController.m */,
+				D8B5E00FB9852417E50938C30C5806A8 /* CHOMontageTableViewController.h */,
+				A286F8F17664B4F64AAF805C6BCC7DCE /* CHOMontageTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC877BF1A99CA1FB7DEE788F94017AA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				099CE00898F001E9C476C092E8EE39E0 /* Pods-CHOMontage_Example */,
+				4BB8C8B13B574D577EF1425906575232 /* Pods-CHOMontage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D219F3416DD3B3A646C1402DD461F296 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				C1246B0EA179BFD76571FB4A26743A1B /* CHOMontageAnnotation.h */,
+				494B2608DAFFEEFA55F74CDFD1BC5C54 /* CHOMontageAnnotation.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF23F4D070C440661318A53404714DBA /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				49DE21D1FC2AACE9804A92BA39CC75BB /* CHOMontageItem.h */,
+				21A6F2737FD220F110263DA538F8781E /* CHOMontageItem.m */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		481EB4B43860F32CD0079ED9059671A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F14F3D09498876CF0E70050D988D85 /* CHOBaseDirector.h in Headers */,
+				242FFEBFDD094064D6E8FA98E8939515 /* CHOCollectionDirector.h in Headers */,
+				D718BB1983D779CCBCE6C5A72644A921 /* CHODirector.h in Headers */,
+				608C7D4CB41D24B18BC95CD3E10CB0C8 /* CHOMontage-umbrella.h in Headers */,
+				BE7117FADDE760998C5E659DA85980B0 /* CHOMontage.h in Headers */,
+				03405FCB62E001A851293CAB88BA588D /* CHOMontageAnnotation.h in Headers */,
+				3BF42D7EA5D7868304D5F030AEB685F0 /* CHOMontageCollectionCell.h in Headers */,
+				6DE49B287D938B5EC392D5C851AB9BB4 /* CHOMontageCollectionViewController.h in Headers */,
+				E5584A94B8F25FAECA9443F2773E5507 /* CHOMontageDefines.h in Headers */,
+				37B46034A240CA7CF87286A823DD12ED /* CHOMontageItem.h in Headers */,
+				A128DC9CD95F9170DB8364F17047F2D4 /* CHOMontageLayout.h in Headers */,
+				A16A4579702C48AB124B12EEF1B139A3 /* CHOMontageTableCell.h in Headers */,
+				E7B33F07ACA43D7060EBB8CF26F334D3 /* CHOMontageTableViewController.h in Headers */,
+				883D62AA62F879B63F7D4DCA52B91B50 /* CHOTableDirector.h in Headers */,
+				6274485D3739698AD292E0BB7393DDE5 /* ICHOMontageCell.h in Headers */,
+				F61682AFB98A3F991D5C5FACB4EB6FBF /* ICHOMontageItem.h in Headers */,
+				1EDC92EDD485DD09FE04A314AC734A27 /* ICHOMontageLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA075842AB54087A8860945BE1BF3CDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE31BF8EFADDB601863D0859150F7E8 /* Pods-CHOMontage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB426A9B0A45E8F2D6867658ED46B46B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C226EA82EA0240FF7807EB310C43F25B /* Pods-CHOMontage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17FECBD3CDAB192834F82E03DB8A53C7 /* CHOMontage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C6C14DCAD0164ECB34A07201A610D49 /* Build configuration list for PBXNativeTarget "CHOMontage" */;
+			buildPhases = (
+				3741FF32D5D0715FED2249ACC725C200 /* Sources */,
+				8C739210D8B63D5E361AEEAC3E45F573 /* Frameworks */,
+				481EB4B43860F32CD0079ED9059671A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHOMontage;
+			productName = CHOMontage;
+			productReference = 8112C7842317E38004230DE0BC39523C /* CHOMontage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51820974538D88B98128CEA5036F5AFA /* Pods-CHOMontage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E2ADC2C410435C8066B97B413276BF /* Build configuration list for PBXNativeTarget "Pods-CHOMontage_Example" */;
+			buildPhases = (
+				490AA55E7F459C324C03EACC50A0482E /* Sources */,
+				577F9687E82F6E1FC414EA2D369F32DF /* Frameworks */,
+				FB426A9B0A45E8F2D6867658ED46B46B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDD78FD5CDD1090493DBFCE080BA9BF /* PBXTargetDependency */,
+			);
+			name = "Pods-CHOMontage_Example";
+			productName = "Pods-CHOMontage_Example";
+			productReference = B9D9D1FA777D17C661FA9729BCD74D77 /* Pods_CHOMontage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF30CB5E2D2526EC949A7AB9249184B2 /* Pods-CHOMontage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA37AABF8A1B18C0E3C12EB73EF2228 /* Build configuration list for PBXNativeTarget "Pods-CHOMontage_Tests" */;
+			buildPhases = (
+				CD60BAF853B4FA2E623139FE65E93498 /* Sources */,
+				E1BBBACCABC1845BCA86E0D76877F787 /* Frameworks */,
+				BA075842AB54087A8860945BE1BF3CDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOMontage_Tests";
+			productName = "Pods-CHOMontage_Tests";
+			productReference = 352E114F93E23379BA356C8C3B7D8587 /* Pods_CHOMontage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 60F72EA7617CDFA4847E2207773E1C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17FECBD3CDAB192834F82E03DB8A53C7 /* CHOMontage */,
+				51820974538D88B98128CEA5036F5AFA /* Pods-CHOMontage_Example */,
+				CF30CB5E2D2526EC949A7AB9249184B2 /* Pods-CHOMontage_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3741FF32D5D0715FED2249ACC725C200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24D3ED1230D6C62C838355F8DBF3B45 /* CHOBaseDirector.m in Sources */,
+				632E435AB0889A645D6740E6A3B6274F /* CHOCollectionDirector.m in Sources */,
+				DC77CB6242C232C9841F7E45B1706A50 /* CHOMontage-dummy.m in Sources */,
+				B40004AFA34AD669BE16D52B3E1F1DAD /* CHOMontageAnnotation.m in Sources */,
+				CE6F0DEC0381185CD4CDC38CF8062FA8 /* CHOMontageCollectionCell.m in Sources */,
+				7B371603BCCD8F0CD6EE682FD4D48267 /* CHOMontageCollectionViewController.m in Sources */,
+				C748CC3A854FF8180D1658DB4DCACFD8 /* CHOMontageDefines.m in Sources */,
+				9F972B61B63CE65D1F621D5D9997A69B /* CHOMontageItem.m in Sources */,
+				1CE6322A50C812472EF8ACB1659EFF34 /* CHOMontageLayout.m in Sources */,
+				F68AB4E404BEFFAB66196D55A13517D9 /* CHOMontageTableCell.m in Sources */,
+				EB41ACE05866216D518376D1D91FF346 /* CHOMontageTableViewController.m in Sources */,
+				2FFBD418FF60B733862B1C13EB2028A3 /* CHOTableDirector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490AA55E7F459C324C03EACC50A0482E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FF0577DD528032E33065B2ED810CEA /* Pods-CHOMontage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD60BAF853B4FA2E623139FE65E93498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C5083A91A69BCC1C3E49AE28E1EAB5 /* Pods-CHOMontage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDD78FD5CDD1090493DBFCE080BA9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHOMontage;
+			target = 17FECBD3CDAB192834F82E03DB8A53C7 /* CHOMontage */;
+			targetProxy = 5D97E3696F168FF7EB2E4370838C4137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		287DB5A5C04195D38958153B57F5B612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B35704F050119A8E23E4F6B16D8C328 /* Pods-CHOMontage_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOMontage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOMontage_Example/Pods-CHOMontage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOMontage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A9E846690B03CB3ED46BC072EA3B2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BB8177A2802BA50151836582426209 /* Pods-CHOMontage_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOMontage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOMontage_Tests/Pods-CHOMontage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOMontage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		436BBF959819959E923A025D0E6AAAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30B7A6897DF87921399F40296BEB010 /* CHOMontage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHOMontage/CHOMontage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHOMontage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHOMontage/CHOMontage.modulemap";
+				PRODUCT_NAME = CHOMontage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4912C906D4486E2758AA0BE7769A3CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30B7A6897DF87921399F40296BEB010 /* CHOMontage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHOMontage/CHOMontage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHOMontage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHOMontage/CHOMontage.modulemap";
+				PRODUCT_NAME = CHOMontage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE84DA903654BAA95EACCAD2AE6D4375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BEA9844D08273DDCC2DBF4DEC01CBF /* Pods-CHOMontage_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOMontage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOMontage_Example/Pods-CHOMontage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOMontage_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF485BE6BFFCAAAF69A36D932E912AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29AF87B9C7E74120A385879CF720D58C /* Pods-CHOMontage_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOMontage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOMontage_Tests/Pods-CHOMontage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOMontage_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA37AABF8A1B18C0E3C12EB73EF2228 /* Build configuration list for PBXNativeTarget "Pods-CHOMontage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9E846690B03CB3ED46BC072EA3B2F7 /* Debug */,
+				EF485BE6BFFCAAAF69A36D932E912AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E2ADC2C410435C8066B97B413276BF /* Build configuration list for PBXNativeTarget "Pods-CHOMontage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287DB5A5C04195D38958153B57F5B612 /* Debug */,
+				DE84DA903654BAA95EACCAD2AE6D4375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C6C14DCAD0164ECB34A07201A610D49 /* Build configuration list for PBXNativeTarget "CHOMontage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4912C906D4486E2758AA0BE7769A3CD6 /* Debug */,
+				436BBF959819959E923A025D0E6AAAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

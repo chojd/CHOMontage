@@ -1,0 +1,83 @@
+{
+  "name": "CHOMontage",
+  "version": "0.1.0",
+  "summary": "A short description of CHOMontage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chojd/CHOMontage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gene": "jingda.cao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chojd/CHOMontage.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/JingdaCao",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Sources/*",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "Sources/Base/*",
+      "dependencies": {
+        "CHOMontage/Director": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "Cell",
+          "source_files": "Sources/Base/Cell/*"
+        },
+        {
+          "name": "Controller",
+          "source_files": "Sources/Base/Controller/*"
+        },
+        {
+          "name": "Item",
+          "source_files": "Sources/Base/Item/*"
+        },
+        {
+          "name": "Layout",
+          "source_files": "Sources/Base/Layout/*"
+        }
+      ]
+    },
+    {
+      "name": "Annotation",
+      "source_files": "Sources/Annotation/*",
+      "dependencies": {
+        "CHOMontage/Director": [
+
+        ]
+      }
+    },
+    {
+      "name": "Director",
+      "source_files": "Sources/Director/*",
+      "dependencies": {
+        "CHOMontage/Interfaces": [
+
+        ]
+      }
+    },
+    {
+      "name": "Defines",
+      "source_files": "Sources/Defines/*"
+    },
+    {
+      "name": "Interfaces",
+      "source_files": "Sources/Interfaces/*",
+      "dependencies": {
+        "CHOMontage/Defines": [
+
+        ]
+      }
+    }
+  ]
+}
